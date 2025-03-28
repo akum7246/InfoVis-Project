@@ -1,0 +1,237 @@
+body{
+    width: 60%;
+    margin: 3% auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(255,250,233);
+
+    
+    }
+    
+    .mainHeading{
+    text-align: left;
+    font-weight: 500px;
+    }
+    .introPara {
+        font-weight: normal;
+        font-size:larger;
+        
+        color: #3a3a3a;
+    }
+    h2 {
+        font-weight: medium;
+        font-size:larger;
+    }
+    h2.ctaHeading {
+        font-weight: 600;
+        color: #6b6b6b;
+        margin-bottom: 10px;
+    }
+    h3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .infoText{
+        font-size: 20px;
+        color: #6b6b6b;
+        display: flex; /* Made the container a flex container */
+        align-items: center; /* Vertically centered the text */
+        margin-top: 5px; /* Added margin top */
+    }
+    #hookLine {
+        font-weight: normal; 
+        text-align: center;
+        font-size:38px;
+    }
+    .endPara{
+        font-weight: normal;
+        text-align: center;
+    }
+    button{
+        display: block;
+        margin: 30px auto;/* Centered horizontally */
+        padding: 15px 50px;
+        background-color: rgb(251, 230, 164);
+        border: 1.5px solid #6b6b6b;
+        font-size: 16px;
+        border-radius: 3px;
+        color: #6b6b6b;
+    }
+    button:hover {
+        background-color: #FFFEFA; /* Changed background color on hover */
+        border: 1.5px solid #FFFEFA;
+        cursor: pointer;
+    }
+    #btn {
+        text-decoration: none; /* Removed underline */
+    }
+    a {
+        text-decoration: underline;
+        color: black;
+    }
+   
+    a:hover {
+        color:#6b6b6b; /* Change text color on hover */
+    }
+    a.link2 {
+        text-decoration: underline;
+        color: rgb(248, 191, 36);
+    }
+    a.link2:hover {
+        text-decoration: underline;
+        color: rgb(255, 217, 113);
+    }
+    b.stat{
+        font-size:larger;
+        color: #ffb12b;
+    }
+    #banner {
+        background-image: url('images/ctabanner.png'); 
+        background-size: cover; 
+        background-position: center; /* Center the background image */
+        margin: 0% -33%;
+        padding: 2%;
+        
+    }
+    #quote {
+        text-align: center; /* Aligned text content in the center */
+        background-color: rgb(81, 160, 199);
+        color: #FFFEFA;
+        padding: 3%;
+      
+        margin: 7% -33% -10% -33%;
+    }
+    
+    #finalQuote {
+        text-align: center; 
+        font-weight: 250;
+        font-size:38px;
+    }
+  
+    #quoteAuthor {
+        text-align: center; 
+        font-size:larger; /* Increased font size */
+    }
+
+    .box {
+        background-color: rgb(255, 254, 234); /* Light yellow background */
+        border-radius: 20px; /* Rounded corners */
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+        padding: 1px 20px ; /* Added padding inside the box */
+        
+        margin-bottom: 20px;
+    }
+    .Section {
+        border-bottom: 1.5px dotted rgb(218, 218, 218); /*black border at the bottom */
+        padding-bottom: 30px; 
+        padding-top: 30px; 
+    }
+
+   
+
+    h4{
+        font-weight: 500;
+        font-size: larger;
+        color: rgb(128, 128, 128);
+    }
+   
+    /* #choropleth {
+        max-height: 670px;
+        overflow-y: hidden;
+    } */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns, each taking up half of the width */
+        gap: 30px; /* Gap between the grid items */
+        margin-top: 4%;
+       
+        border-bottom: 1.5px dotted rgb(218, 218, 218); /* Add a 2px solid black border at the bottom */
+        padding-bottom: 30px; 
+  
+    align-items: center; /* Vertically centered the text */
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns, each taking up half of the width */
+        gap: 35px; /* Gap between the grid items */
+        margin-top: 4%;
+        margin-bottom: 4%;
+        align-items: center; /* Vertically centered the text within container */
+    }
+
+    .pieChartPanel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+        
+    }
+.topGap {
+    margin-top: 5%;
+}
+    
+    /* Style for the box containing the small elements */
+    .statPanel1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 20px; /* Gap between the small elements */
+    }
+    .statPanel2 {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr); /* Two columns */
+        gap: 20px; /* Gap between the small elements */
+    }
+    
+    /* Style for each small element */
+    .mentalHealthStats {
+        background-color: rgb(261, 230, 164); /* Light gray background */
+        border-radius: 17px; /* Rounded corners */
+        padding: 20px; /* Padding inside each box */
+        display: flex; 
+
+    align-items: center; /* Align content vertically to the center */
+        
+        
+    }
+    
+    /* Style for the small elements */
+    .mentalHealthStats small {
+        font-size: 20px;
+    }
+    
+    /* Style for the image */
+    .image {
+       
+        width: auto;
+     
+        height: auto;
+       
+        margin: 0 auto; 
+        overflow: hidden; /* Hid overflow to prevent horizontal scrolling */
+        
+    }
+
+    .image {
+        display: flex;
+    
+     
+        padding: 30px 30px 30px 30px;
+    }
+    
+    .image img {
+       
+        width: 100%;
+       
+        height: auto;
+    }
+    .image2 img {
+      
+        width: 50%;
+       
+        height: auto;
+       
+        padding: 20px 100px;
+       
+    }
+ p {
+    font-size: 18px;
+ }
+    
